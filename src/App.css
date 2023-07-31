@@ -1,12 +1,12 @@
 body {
   background-color: #FAF3F0;
+ 
 }
 .App {
   font-family: 'REM', sans-serif;
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
+  /* padding-left: 100px; */
 }
 .Menu {
   padding: 200px;
@@ -14,6 +14,10 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.Quiz-container {
+margin-left: auto;
+margin-right: auto;
 }
 .Menu button {
   font-family: 'REM', sans-serif;
@@ -25,9 +29,133 @@ body {
   font-size: 20px;
   color: #5d5c71;
   border: 4px solid #7f7d9c;
- 
 }
 .Menu h1 {
-  font-size: 60px;
+  font-size: 50px;
   color: #7f7d9c;
+}
+.Quiz {
+  padding: 20px;
+  float: left;
+    position: relative;
+   
+  
+}
+.Quiz h1 {
+  font-size: 20px;
+  color:#5d5c71 ;
+}
+.topic {
+  font-size: 20px;
+  border: 5px solid #DBC4F0;
+  color: #272829;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 5px;
+}
+.quiz-options button{
+  font-size: medium;
+  padding: 10px;
+  margin: 10px;
+  border-color: #DBC4F0;
+  border-radius: 15px;
+  color: #7f7d9c;
+}
+.selectedStyle {
+  color: #7f7d9c;
+  border: none;
+}
+.unselectedStyle {
+  color: #7f7d9c;
+  border: 2px solid #4D5B9E;
+  border-color: #DBC4F0;
+}
+.answers-checked-btn {
+  justify-content: center;
+  background-color: #DBC4F0;
+  font-size: medium;
+  color: #f9f9f9;
+  border-radius: 15px;
+  margin-top: 50px;
+  margin-bottom: 20px;;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  border: none;
+  width: 200px;
+  height: 50px;
+}
+.line {
+  width: 90%;
+  height: 0;
+  border: 1px solid #e0e0e0;
+  margin: 3px;
+  display:inline-block;
+}
+.score {
+  margin: 20px auto;
+  color: #61677A;
+  font-size: 15px;
+}
+#correct {
+  background-color: #D4E2D4;
+  border: none;
+}
+#incorrect {
+  background-color: #FFCACC;
+  border: none;
+}
+#incorrect.selectedStyle {
+  border: 2px solid #5d5c71;
+}
+#correct.selectedStyle {
+  border: 2px solid #5d5c71;
+}
+
+
+@media screen and (min-width: 380px) {
+  .Menu {
+    margin-top: 150px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .Quiz h1 {
+    font-size: 20px;
+  }
+  .quiz-options button {
+    font-size: 10px;
+    padding: 10px;
+    margin-right: 5px;
+    border-color: #DBC4F0;
+    border-radius: 15px;
+    color: #7f7d9c;
+  }
+  .selectedStyle {
+    color: #7f7d9c;
+    border: none;
+  }
+  .unselectedStyle {
+    color: #7f7d9c;
+    border: 2px solid #4D5B9E;
+    border-color: #DBC4F0;
+  }
+  .Menu button {
+    font-size: 15px;
+  }
+  .Menu p {
+    font-size: 12px;
+
+  }
+  .score {
+    color: #61677A;
+  }
+  .App {
+    font-family: 'REM', sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 0px;
+  }
+
 }
