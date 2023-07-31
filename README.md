@@ -1,7 +1,7 @@
 # Quizzical
 ![QuizzicalCover](https://github.com/MaliaPagley/Quizzical/assets/103156594/2bd0c961-60a3-4c8e-87bb-b9f8ab390235)
 
-![Netlify Status](https://api.netlify.com/api/v1/badges/17d6af9c-0609-4f03-99df-9b8d2b78f7da/deploy-status)]
+![Netlify Status](https://api.netlify.com/api/v1/badges/17d6af9c-0609-4f03-99df-9b8d2b78f7da/deploy-status)
 **<p>Quizzical is an application that will display 5 random questions from the opentdb.com trivia API and will allow the user to choose the correct answer and see the results.</p>**
 
 ### Concepts in the project:
